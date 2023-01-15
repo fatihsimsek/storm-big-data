@@ -51,11 +51,9 @@ public class WordReaderSpout implements IRichSpout, CompletableSpout {
     }
 
     public void ack(Object msgId) {
-
     }
 
     public void fail(Object msgId) {
-
     }
 
     public void declareOutputFields(OutputFieldsDeclarer declarer) {
